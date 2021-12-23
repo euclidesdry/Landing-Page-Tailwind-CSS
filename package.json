@@ -1,0 +1,13 @@
+{
+  "name": "modern-landing-page",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "euclidesdry <euclidesdry@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build:tailwinds": "tailwind build src/style.css -o public/assets/css/style.css"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.0.7"
+  }
+}
