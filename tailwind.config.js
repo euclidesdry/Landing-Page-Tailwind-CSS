@@ -7,9 +7,11 @@ module.exports = {
     colors: {
       "bookmark-purple": "#5267DF",
       "bookmark-red": "#FA5959",
+      "bookmark-orange": "#F28705",	
       "bookmark-blue": "#242A45",
       "bookmark-gray": "#9194A2",
-      "bookmark-white": "#FFFFFF",
+      "bookmark-white": "#F7F7F7",
+      "white": "#FFFFFF",
     },
     fontFamily: {
       Poppins: ["Poppins", "sans-serif"],
