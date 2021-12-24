@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-100 w-100">
 
 <head>
     <meta charset="UTF-8">
@@ -15,7 +15,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="font-Poppins">
+<body class="font-Poppins h-100 w-100 overflow-x-hidden">
     <!-- Header -->
     <header>
         <nav class="container flex items-center py-4 mt-4 sm:mt-12">
@@ -54,12 +54,12 @@
                 </p>
 
                 <div class="flex justify-center flex-wrap gap-6">
-                    <button type="button"
-                        class="btn btn-orange hover:bg-bookmark-white hover:text-black hover:scale-105 active:scale-100"><i
-                            class="fab fa-chrome"></i> Get it on Chrome</button>
-                    <button type="button"
-                        class="btn btn-white hover:bg-bookmark-red hover:text-white hover:scale-105 active:scale-100"><i
-                            class="fab fa-opera"></i> See working on Opera</button>
+                    <button type="button" class="btn btn-orange hover:bg-bookmark-white hover:text-black hover:scale-105 active:scale-100">
+                        <i class="fab fa-chrome"></i> Get it on Chrome
+                    </button>
+                    <button type="button" class="btn btn-white hover:bg-bookmark-red hover:text-white hover:scale-105 active:scale-100">
+                        <i class="fab fa-opera"></i> See working on Opera
+                    </button>
                 </div>
             </div>
             <!-- Image -->
@@ -70,6 +70,87 @@
         </div>
         <!-- Rounded Rectangle -->
         <div class="h-80 w-2/4 transition-all duration-400 hover:translate-x-6 hidden md:block overflow-hidden bg-bookmark-orange rounded-l-full absolute top-32 right-0 lg: -bottom-28 lg:-right-36"></div>
+    </section>
+
+    <!-- Features -->
+    <section class="bg-bookmark-white py-20 mt-20 lg:mt-60">
+        <!-- Heading -->
+        <div class="sm:w-3/4 lg:w-5-12 mx-auto px-2">
+            <h2 class="text-bookmark-blue text-3xl text-center">
+                Features
+            </h2>
+            <p class="text-bookmark-gray text-center mt-4">
+                Our aim is to make it quick and easy for you to have access to your favorite websites. Your bookmarks will ever be sync between all
+                your devices so you can access them and go use it.
+            </p>
+        </div>
+        <!-- Features #1 -->
+        <div class="relative mt-20 lg:mt-24">
+            <div class="container flex flex-col md:gap-5 lg:flex-row items-center justify-center pag-x-24">
+                <!-- Image -->
+                <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                    <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./assets/img/illustration-features-tab-1.png" alt="Features Bookmark #1">
+                </div>
+                <!-- Content -->
+                <div class="flex flex-1 flex-col items-center lg:items-start">
+                    <h1 class="text-3xl text-bookmark-blue">Bookmark in one click</h1>
+                    <p class="text-bookmark-gray my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
+                        Organize your bookmarks however you like.
+                        Our simple drag-and-drop interface gives you complete control over how you manage
+                        your favourite websites.
+                    </p>
+                    <button type="button" class="btn btn-orange hover:bg-bookmark-white hover:text-black hover:scale-105 active:scale-100">
+                        <i class="fas fa-info-circle"></i> More Informations
+                    </button>
+                </div>
+            </div>
+            <!-- Rounded Rectangle -->
+            <div class="h-80 w-2/4 transition-all duration-400 hover:translate-x-6 hidden lg:block overflow-hidden bg-bookmark-orange rounded-r-full absolute -bottom-24 -left-36"></div>
+        </div>
+        <!-- Features #2 -->
+        <div class="relative mt-20 lg:mt-52">
+            <div class="container flex flex-col md:gap-5 lg:flex-row-reverse items-center justify-center pag-x-24">
+                <!-- Image -->
+                <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                    <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./assets/img/illustration-features-tab-2.png" alt="Features Bookmark #2">
+                </div>
+                <!-- Content -->
+                <div class="flex flex-1 flex-col items-center lg:items-start">
+                    <h1 class="text-3xl text-bookmark-blue">Very Intelligent search</h1>
+                    <p class="text-bookmark-gray my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
+                        Our powerful search feature will help you find saved sites in no time at all. You no need to crawl through all features
+                        of your bookmarks.
+                    </p>
+                    <button type="button" class="btn btn-purple hover:bg-white hover:text-black hover:scale-105 active:scale-100">
+                        <i class="fas fa-info-circle"></i> More Informations
+                    </button>
+                </div>
+            </div>
+            <!-- Rounded Rectangle -->
+            <div class="h-80 w-2/4 transition-all duration-400 hover:translate-x-6 hidden lg:block overflow-hidden bg-bookmark-purple rounded-l-full absolute -bottom-24 -right-36"></div>
+        </div>
+        <!-- Features #3 -->
+        <div class="relative mt-20 lg:mt-52">
+            <div class="container flex flex-col md:gap-5 lg:flex-row items-center justify-center pag-x-24">
+                <!-- Image -->
+                <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+                    <img class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full" src="./assets/img/illustration-features-tab-3.png" alt="Features Bookmark #1">
+                </div>
+                <!-- Content -->
+                <div class="flex flex-1 flex-col items-center lg:items-start">
+                    <h1 class="text-3xl text-bookmark-blue">Share your bookmarks</h1>
+                    <p class="text-bookmark-gray my-4 text-center lg:text-left sm:w-3/4 lg:w-full">
+                        You can easily share your bookmarks and collections with others. Create a shareable link that you can send to your friends
+                        with a click of a button.
+                    </p>
+                    <button type="button" class="btn btn-orange hover:bg-bookmark-white hover:text-black hover:scale-105 active:scale-100">
+                        <i class="fas fa-info-circle"></i> More Informations
+                    </button>
+                </div>
+            </div>
+            <!-- Rounded Rectangle -->
+            <div class="h-80 w-2/4 transition-all duration-400 hover:translate-x-6 hidden lg:block overflow-hidden bg-bookmark-orange rounded-r-full absolute -bottom-24 -left-36"></div>
+        </div>
     </section>
 </body>
 

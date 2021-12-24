@@ -472,8 +472,30 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: -7rem;
 }
 
+.-right-36 {
+  right: -9rem;
+}
+
+.-bottom-24 {
+  bottom: -6rem;
+}
+
+.-left-36 {
+  left: -9rem;
+}
+
 .z-10 {
   z-index: 10;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .mt-4 {
@@ -490,6 +512,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mb-10 {
   margin-bottom: 2.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .flex {
@@ -556,8 +582,28 @@ Ensure the default browser behavior of the `hidden` attribute.
   gap: 1.5rem;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-5 {
+  gap: 1.25rem;
+}
+
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-x-hidden {
+  overflow-x: hidden;
 }
 
 .rounded-md {
@@ -569,9 +615,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-bottom-left-radius: 9999px;
 }
 
+.rounded-r-full {
+  border-top-right-radius: 9999px;
+  border-bottom-right-radius: 9999px;
+}
+
 .bg-bookmark-orange {
   --tw-bg-opacity: 1;
   background-color: rgb(242 135 5 / var(--tw-bg-opacity));
+}
+
+.bg-bookmark-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 247 247 / var(--tw-bg-opacity));
+}
+
+.bg-bookmark-purple {
+  --tw-bg-opacity: 1;
+  background-color: rgb(82 103 223 / var(--tw-bg-opacity));
 }
 
 .py-4 {
@@ -592,6 +653,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .text-center {
@@ -692,11 +763,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(247 247 247 / var(--tw-bg-opacity));
 }
 
-.hover\:translate-x-2:hover {
-  --tw-translate-x: 0.5rem;
-  transform: var(--tw-transform);
-}
-
 .hover\:translate-x-6:hover {
   --tw-translate-x: 1.5rem;
   transform: var(--tw-transform);
@@ -708,10 +774,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   transform: var(--tw-transform);
 }
 
-.hover\:hover\:scale-105:hover:hover {
-  --tw-scale-x: 1.05;
-  --tw-scale-y: 1.05;
-  transform: var(--tw-transform);
+.hover\:bg-bookmark-blue:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(36 42 69 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-bookmark-white:hover {
@@ -719,24 +784,19 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(247 247 247 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-bookmark-purple:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(82 103 223 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-bookmark-orange:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(242 135 5 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-bookmark-red:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(250 89 89 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-bookmark-blue:hover {
+.hover\:bg-bookmark-purple:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(36 42 69 / var(--tw-bg-opacity));
+  background-color: rgb(82 103 223 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .hover\:text-black:hover {
@@ -768,10 +828,6 @@ Ensure the default browser behavior of the `hidden` attribute.
     display: none;
   }
 
-  .sm\:h-2\/4 {
-    height: 50%;
-  }
-
   .sm\:h-3\/4 {
     height: 75%;
   }
@@ -797,6 +853,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   .md\:w-full {
     width: 100%;
   }
+
+  .md\:gap-5 {
+    gap: 1.25rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -812,8 +872,32 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-bottom: 0px;
   }
 
+  .lg\:mt-60 {
+    margin-top: 15rem;
+  }
+
+  .lg\:mt-24 {
+    margin-top: 6rem;
+  }
+
+  .lg\:mt-52 {
+    margin-top: 13rem;
+  }
+
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:w-full {
+    width: 100%;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
+  }
+
+  .lg\:flex-row-reverse {
+    flex-direction: row-reverse;
   }
 
   .lg\:items-start {

@@ -13,6 +13,11 @@ module.exports = {
       "bookmark-white": "#F7F7F7",
       "white": "#FFFFFF",
       "black": "#222222",
+      "pallet-orange-light": "#F2CB05",
+      "pallet-orange-neutral": "#F2B705",
+      "pallet-orange": "#F28705",
+      "pallet-orange-dark": "#F25C05",
+      "pallet-dark": "#0D0D0D",
     },
     fontFamily: {
       Poppins: ["Poppins", "sans-serif"],
