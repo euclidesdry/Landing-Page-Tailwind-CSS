@@ -12,6 +12,7 @@ module.exports = {
       "bookmark-gray": "#9194A2",
       "bookmark-white": "#F7F7F7",
       "white": "#FFFFFF",
+      "black": "#222222",
     },
     fontFamily: {
       Poppins: ["Poppins", "sans-serif"],
