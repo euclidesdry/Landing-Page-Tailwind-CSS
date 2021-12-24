@@ -543,6 +543,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1.5rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
 .flex {
   display: flex;
 }
@@ -825,6 +833,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(82 103 223 / var(--tw-text-opacity));
 }
 
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(34 34 34 / var(--tw-text-opacity));
+}
+
 .shadow-md {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
@@ -928,6 +941,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
 .active\:scale-100:active {
   --tw-scale-x: 1;
   --tw-scale-y: 1;
@@ -953,6 +971,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .sm\:w-3\/4 {
     width: 75%;
+  }
+
+  .sm\:flex-row {
+    flex-direction: row;
   }
 }
 
@@ -1030,6 +1052,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:w-5\/12 {
     width: 41.666667%;
+  }
+
+  .lg\:w-2\/4 {
+    width: 50%;
   }
 
   .lg\:grid-cols-3 {
