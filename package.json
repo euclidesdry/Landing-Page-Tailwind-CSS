@@ -5,9 +5,11 @@
   "author": "euclidesdry <euclidesdry@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build:tailwinds": "tailwind build src/style.css -o public/assets/css/style.css"
+    "build:tailwinds": "tailwind build -i ./src/style.css -o ./public/assets/css/style.css",
+    "build:tailwinds-watch": "tailwind build -i ./src/style.css -o ./public/assets/css/style.css --watch"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "tailwindcss": "^3.0.7"
   }
 }
